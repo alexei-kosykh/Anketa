@@ -63,7 +63,7 @@ const PENSION_MAN = 65;
 const PENSION_WOMAN = 55;
 let pensionUser;
 
-let keyValidation; // для проверки на ввод чилсла
+let keyValidation; // для проверки на ввод числа
 
 let nameUser;
 let subNameUser;
@@ -86,7 +86,6 @@ do {
     keyValidation = 1;
   } else {
     keyValidation = 0;
-    continue;
   }
 } while (yearUser.length === 0 || keyValidation === 1);
 let genderUser = confirm("Ваш пол - мужской?") ? "man" : "woman";
