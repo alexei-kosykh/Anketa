@@ -59,7 +59,7 @@
 //===========================================
 // ЗАДАЧИ
 // 1
-const PENSION_MAN = 65;
+/* const PENSION_MAN = 65;
 const PENSION_WOMAN = 55;
 let pensionUser;
 
@@ -108,6 +108,7 @@ alert(`Ваше ФИО: ${subNameUser} ${nameUser} ${patronymicUser}
 Через 5 лет вам будет: ${fiveYearLater}
 Ваш пол: ${genderUser}
 На данный момент ${pensionUser}`);
+*/
 
 // 2;
 /* let stringUser;
@@ -176,3 +177,82 @@ if (D > 0) {
   alert(`Корень уравнения х = ${x}`);
 }
 */
+
+// 2.12
+// Четные числа от 2 до 10
+// let someNumbers = [2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let amountEvenNumbers = 0;
+// let i = 0;
+// через for
+// for (let i = 0; i < someNumbers.length; i++) {
+//   if (someNumbers[i] % 2 === 0) {
+//     amountEvenNumbers += 1;
+//   }
+// }
+// через while
+// while (i < someNumbers.length) {
+//   if (someNumbers[i] % 2 === 0) {
+//     amountEvenNumbers += 1;
+//   }
+//   i++;
+// }
+// console.log(amountEvenNumbers);
+
+// проверка валидности
+// let someUserNumber;
+// do {
+//   someUserNumber = prompt("Введите больше 100 ", "");
+// } while (someUserNumber <= 100 && someUserNumber);
+// someUserNumber >= 100
+//   ? alert("Вы ввели больше 100!")
+//   : alert("Не получилось?!");
+
+// вывод простых чисел
+// let n;
+// let simpleArray = [];
+// let simpleAmount = 0;
+// a = 0;
+// do {
+//   n = +prompt("Введите количество простых чисел", "");
+// } while (!n);
+// firstTime: for (let i = 2; i <= n; i++) {
+//   for (let j = 2; j < i; j++) {
+//     if (i % j == 0) continue firstTime;
+//   }
+//   simpleArray[a] = i;
+//   a++;
+//   simpleAmount += 1;
+// }
+// alert(
+//   `Простые числа от 1 до ${n}: ${simpleArray} в количестве ${simpleAmount}`
+// );
+
+// Switch в if..else
+/* let browser = "Firefox";
+if (browser === "Edge") {
+  alert("Youve got the Edge!");
+} else if (
+  browser === "Firefox" ||
+  browser === "Chrome" ||
+  browser === "Opera" ||
+  browser === "Safari"
+) {
+  alert("Okay we support these browsers too");
+} else {
+  alert("We hope that this page looks ok!");
+} */
+
+// if..else в switch
+/* const number = +prompt("Введите число между 0 и 3", "");
+
+switch (number) {
+  case 0:
+    alert("Вы ввели число 0");
+    break;
+  case 1:
+    alert("Вы ввели число 1");
+    break;
+  case 2:
+  case 3:
+    alert("Вы ввели число 2, а может и 3");
+} */
